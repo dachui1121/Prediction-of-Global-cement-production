@@ -1,0 +1,199 @@
+{
+  "models": [
+    {
+      "country": "united_kingdom",
+      "scenario": "bau",
+      "module": "cement_bau.floor_area_models.united_kingdom",
+      "inputs": {
+        "macro": {
+          "file": "data/bau/united_kingdom.xlsx",
+          "sha256": "32499c73250b6ee4881aaf2d3095e9ae6a512e00d0b71b885cb480886fdcb476"
+        }
+      },
+      "packaged_sha256": "025c81c212fe081d2adc7d05da1d5f54b228a75150371cc0adb592a3625db67d",
+      "original_sha256": "edeb35ad6914dd6e7c2e5138a45c5d961b9c71347dfb49255a626840d2adc72e",
+      "original_filename": "英国城镇人均住宅面积拟合---BAU.py",
+      "uses_private_anchors": true,
+      "result_year_column": "年份",
+      "result_area_column": "预测_人均住宅面积_Logistic(㎡/人)"
+    },
+    {
+      "country": "united_states",
+      "scenario": "bau",
+      "module": "cement_bau.floor_area_models.united_states",
+      "inputs": {
+        "macro": {
+          "file": "data/floor_area/bau/united_states.xlsx",
+          "sha256": "22011c26c34888d98cc7402a66b00eaede1e1a642a26c739cac2d84cf97b62b1"
+        },
+        "anchors": {
+          "file": "data/floor_area/bau/united_states.xlsx",
+          "sha256": "22011c26c34888d98cc7402a66b00eaede1e1a642a26c739cac2d84cf97b62b1"
+        }
+      },
+      "packaged_sha256": "3dfc80d6423537e0fba21bd14abf80199a322fb562eca73807661f9813e83fac",
+      "original_sha256": "8bbd883978acfa2ea1f4f902833919c38bc0ecf11741d62a80e5de5d5a96274b",
+      "original_filename": "美国人均住宅面积拟合（最新版）---BAU.py",
+      "uses_private_anchors": false,
+      "result_year_column": "年份",
+      "result_area_column": "预测_城镇人均住宅面积_Logistic(㎡/人)"
+    },
+    {
+      "country": "china",
+      "scenario": "bau",
+      "module": "cement_bau.floor_area_models.china",
+      "inputs": {
+        "macro": {
+          "file": "data/bau/china.xlsx",
+          "sha256": "100b3482041ffadeb184d0301278e18897e341b71b8c42f4729cded3cffc68e5"
+        }
+      },
+      "packaged_sha256": "7917beafb1615ce07ba88a0525e86e2f81a6769f7b31e82cc792eaf3c2f7b07a",
+      "original_sha256": "a94272c56bdcc4a35a2409ac67389dcec2146970d50073b7ecdcdb3f9602f335",
+      "original_filename": "中国人均住宅面积预测---BAU.py",
+      "uses_private_anchors": false,
+      "result_year_column": "年份",
+      "result_area_column": "预测_城镇人均住宅面积_Logistic_BAU(㎡/人)"
+    },
+    {
+      "country": "iran",
+      "scenario": "bau",
+      "module": "cement_bau.floor_area_models.iran",
+      "inputs": {
+        "macro": {
+          "file": "data/bau/iran.xlsx",
+          "sha256": "885f3d1c068a416f9c1f007dcf5a39a6d391f30396f7fbafb1b99ec470e3091d"
+        }
+      },
+      "packaged_sha256": "dc66af04dc0de55c74965c7d6044bc2afe4a22725d25171ed990b5e16e5eca82",
+      "original_sha256": "09f7972cc9b8906e9954f5cfdcbef43a28dfdfc2759598a6abc7de7ad327c1c5",
+      "original_filename": "伊朗人均住宅面积---BAU.py",
+      "uses_private_anchors": true,
+      "result_year_column": "年份",
+      "result_area_column": "预测_人均住宅面积_Logistic_BAU(㎡/人)"
+    },
+    {
+      "country": "turkiye",
+      "scenario": "bau",
+      "module": "cement_bau.floor_area_models.turkiye",
+      "inputs": {
+        "macro": {
+          "file": "data/bau/turkiye.xlsx",
+          "sha256": "5f97fe932b4b743026f0e56db6c0109103d603f29b13a111fa23a65f2552a57c"
+        }
+      },
+      "packaged_sha256": "346a26e29f6fd62ccf3be116240695820c3eddf25558a47a4a91f6e491a68b4b",
+      "original_sha256": "d43ad50bc5830b20298eddba276a448b6466c126877bcd8023253afc642ae30b",
+      "original_filename": "土耳其城镇人均住宅面积拟合（最新版）---BAU.py",
+      "uses_private_anchors": true,
+      "result_year_column": "年份",
+      "result_area_column": "预测_城镇人均住宅面积_BAU_Logistic(㎡/人)"
+    },
+    {
+      "country": "indonesia",
+      "scenario": "bau",
+      "module": "cement_bau.floor_area_models.indonesia",
+      "inputs": {
+        "macro": {
+          "file": "data/floor_area/bau/indonesia.xlsx",
+          "sha256": "0ad3c4e99afb5ff12f8609bdcda609104b4af8c99e98285947faac5cf5916af6"
+        }
+      },
+      "packaged_sha256": "789f6796b947357960cd51dd1c09703e0e657e0b114b3dbc9685462e7eb20b85",
+      "original_sha256": "ce41c87e432dca0e11b52b1ea50c2d13fd14c3aaa1533615d878dc9dd40791b5",
+      "original_filename": "印度尼西亚城镇人均住宅面积（最新版）---BAU.py",
+      "uses_private_anchors": true,
+      "result_year_column": "年份",
+      "result_area_column": "预测_人均住宅面积_Logistic_BAU(㎡/人)"
+    },
+    {
+      "country": "russia",
+      "scenario": "bau",
+      "module": "cement_bau.floor_area_models.russia",
+      "inputs": {
+        "macro": {
+          "file": "data/bau/russia.xlsx",
+          "sha256": "e008c8bb7fc10585daeee5bb81d331971dd0b4eeebcd416d8310a5b75f40a6c1"
+        }
+      },
+      "packaged_sha256": "883aa5c5f9098cd541c8fc36b10248d65a8a5fe416264ae60ea4ea63f943a9d8",
+      "original_sha256": "f2c26f03184b69818e94e01924e0d93f04dd14d297099611e80df806137106b0",
+      "original_filename": "俄罗斯城镇人均住宅面积最新版---BAU.py",
+      "uses_private_anchors": true,
+      "result_year_column": "年份",
+      "result_area_column": "预测_人均住宅面积_Logistic"
+    },
+    {
+      "country": "brazil",
+      "scenario": "bau",
+      "module": "cement_bau.floor_area_models.brazil",
+      "inputs": {
+        "macro": {
+          "file": "data/floor_area/bau/brazil.xlsx",
+          "sha256": "b5c70eec54840cce58d8db1f2a788c3bf5a38c8ab6578905623c5fb61ffe8616"
+        }
+      },
+      "packaged_sha256": "8a41d72557c17671cfd447a0956b63394597e40d47eb652c59cc26a44bf85981",
+      "original_sha256": "39e895585efb82af52af38c6ccf92c7daa9ce999353e96e95d84b5ee149aaabb",
+      "original_filename": "巴西人均住宅面积（最新版）---BAU.py",
+      "uses_private_anchors": true,
+      "result_year_column": "年份",
+      "result_area_column": "预测_人均住宅面积(㎡/人)"
+    },
+    {
+      "country": "vietnam",
+      "scenario": "bau",
+      "module": "cement_bau.floor_area_models.vietnam",
+      "inputs": {
+        "macro": {
+          "file": "data/floor_area/bau/vietnam.xlsx",
+          "sha256": "5abc50212678493c9890955cab925d1ca4761cb64de939df66dc39ff94928d2f"
+        }
+      },
+      "packaged_sha256": "63e87a5ca1cc1c1ea1d3877887ffcc56d4b34161decd848b16dbd15f0390dbc5",
+      "original_sha256": "77dad4e306b09a9d3668082ed0dec8eeb7c15cf9a080b37f5460de3a4dca4449",
+      "original_filename": "越南人均住宅面积---BAU.py",
+      "uses_private_anchors": true,
+      "result_year_column": "年份",
+      "result_area_column": "预测_城镇人均住宅面积_Logistic(㎡/人)"
+    },
+    {
+      "country": "india",
+      "scenario": "bau",
+      "module": "cement_bau.floor_area_models.india",
+      "inputs": {
+        "macro": {
+          "file": "data/floor_area/bau/india.xlsx",
+          "sha256": "cd922ef0a99295fcdcf227769b0ec867e53ef5aa7582a5b67210511720885611"
+        }
+      },
+      "packaged_sha256": "74fc334d9ff0cc0c59216cea77ed1225927a893e5eaeea1ba4d81e2d9a4108c8",
+      "original_sha256": "2a301907c5f2a99a374dfeecd122a64f769d9cc8e4343b904fc065cc9c232001",
+      "original_filename": "印度人均住宅面积预测.py",
+      "uses_private_anchors": false,
+      "result_year_column": "年份",
+      "result_area_column": "Logistic拟合/预测人均住宅面积(㎡/人)"
+    },
+    {
+      "country": "japan",
+      "scenario": "bau",
+      "module": "cement_bau.floor_area_models.japan",
+      "inputs": {
+        "macro": {
+          "file": "data/bau/japan.xlsx",
+          "sha256": "a9e416c0b66cd260278484cb2819570f97cc675942c24eb8fe69c23186da29a1"
+        }
+      },
+      "packaged_sha256": "a3cde58ca605cd4354684756e29a360d11bc41f4814032c47fe473eb00aa20ed",
+      "original_sha256": "97a1146ee17cf41e04efe9b023ee94d6a075322c0a3455a54e05d64505806101",
+      "original_filename": "日本人均住宅面积预测---BAU.py",
+      "uses_private_anchors": true,
+      "result_year_column": "年份",
+      "result_area_column": "预测_人均住宅面积_Logistic_BAU_平台版_Lmax60(㎡/人)"
+    }
+  ],
+  "calibration_anchors": {
+    "file": "data/floor_area/bau/calibration_anchors.json",
+    "sha256": "14328a345c714e7b9ef79c4cc418055fea9018bdd7903b13a7e26d491899b158"
+  }
+}

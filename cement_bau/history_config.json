@@ -1,0 +1,216 @@
+{
+  "bau": {
+    "china": {
+      "nonrep": "minimum",
+      "rep": "representative",
+      "years": "years",
+      "series": "yhat_final",
+      "actual": "actual_tons",
+      "rep_module": "cement_bau.models.china_representative",
+      "rep_years": "years",
+      "rep_series": "yhat_final"
+    },
+    "turkiye": {
+      "nonrep": "minimum",
+      "rep": "representative",
+      "years": "years",
+      "series": "pred",
+      "actual": "actual_tons",
+      "rep_module": "cement_bau.models.turkiye_representative",
+      "rep_years": "years",
+      "rep_series": "pred"
+    },
+    "iran": {
+      "nonrep": "minimum",
+      "rep": "representative",
+      "years": "years",
+      "series": "hybrid",
+      "actual": "y_actual",
+      "rep_module": "cement_bau.models.iran_representative",
+      "rep_years": "years",
+      "rep_series": "hybrid"
+    },
+    "united_kingdom": {
+      "nonrep": "minimum",
+      "rep": "representative",
+      "years": "years",
+      "series": "hybrid",
+      "actual": "y_actual",
+      "rep_module": "cement_bau.models.united_kingdom_representative",
+      "rep_years": "years",
+      "rep_series": "hybrid"
+    },
+    "indonesia": {
+      "nonrep": "minimum",
+      "rep": "representative",
+      "years": "years_full",
+      "series": "final_series",
+      "actual": "actual_all",
+      "rep_module": "cement_bau.models.indonesia_representative",
+      "rep_years": "years_full",
+      "rep_series": "final_series"
+    },
+    "vietnam": {
+      "nonrep": "minimum",
+      "rep": "representative",
+      "years": "years_full",
+      "series": "yhat_ar1_fixed",
+      "actual": "actual_all",
+      "rep_module": "cement_bau.models.vietnam_representative",
+      "rep_years": "years_full",
+      "rep_series": "yhat_ar1_fixed"
+    },
+    "india": {
+      "nonrep": "minimum",
+      "rep": "representative",
+      "years": "years",
+      "series": "total_cement_hybrid",
+      "actual": "actual_axis",
+      "rep_module": "cement_bau.models.india_representative",
+      "rep_years": "years",
+      "rep_series": "total_cement_hybrid"
+    },
+    "russia": {
+      "nonrep": "nonreplacement",
+      "rep": "replacement",
+      "years": "years",
+      "series": "hybrid",
+      "actual": "y_actual",
+      "rep_module": "cement_bau.models.russia_replacement",
+      "rep_years": "years",
+      "rep_series": "hybrid"
+    },
+    "brazil": {
+      "nonrep": "nonreplacement",
+      "rep": "replacement",
+      "years": "years",
+      "series": "yhat",
+      "actual": "actual_tons",
+      "rep_module": "cement_bau.models.brazil_replacement",
+      "rep_years": "years",
+      "rep_series": "yhat"
+    },
+    "japan": {
+      "nonrep": "nonreplacement",
+      "rep": "replacement",
+      "years": "years",
+      "series": "final_demand_s",
+      "actual": "actual_tons",
+      "rep_module": "cement_bau.models.japan_replacement",
+      "rep_years": "years",
+      "rep_series": "final_demand_s"
+    },
+    "united_states": {
+      "nonrep": "nonreplacement",
+      "rep": "warmup_1989",
+      "years": "years",
+      "series": "pred_final",
+      "actual": "actual_tons",
+      "rep_module": "cement_bau.models.united_states_warmup_1989",
+      "rep_years": "years",
+      "rep_series": "pred_final"
+    }
+  },
+  "ds": {
+    "brazil": {
+      "nonrep": "nonreplacement",
+      "rep": "replacement",
+      "years": "years",
+      "series": "yhat",
+      "actual": "actual_tons",
+      "rep_years": "years",
+      "rep_series": "yhat",
+      "rep_module": "cement_bau.ds_models.brazil_replacement"
+    },
+    "russia": {
+      "nonrep": "nonreplacement",
+      "rep": "replacement",
+      "years": "years",
+      "series": "hybrid",
+      "actual": "y_actual",
+      "rep_years": "years",
+      "rep_series": "hybrid",
+      "rep_module": "cement_bau.ds_models.russia_replacement"
+    },
+    "japan": {
+      "nonrep": "nonreplacement",
+      "rep": "replacement",
+      "years": "years",
+      "series": "final_demand_s",
+      "actual": "actual_tons",
+      "rep_years": "years",
+      "rep_series": "final_demand_s",
+      "rep_module": "cement_bau.ds_models.japan_replacement"
+    },
+    "turkiye": {
+      "nonrep": "nonreplacement",
+      "rep": "replacement",
+      "years": "years",
+      "series": "pred",
+      "actual": "actual_tons",
+      "rep_years": "years",
+      "rep_series": "pred",
+      "rep_module": "cement_bau.ds_models.turkiye_replacement"
+    },
+    "iran": {
+      "nonrep": "nonreplacement",
+      "rep": "replacement",
+      "years": "years",
+      "series": "hybrid",
+      "actual": "y_actual",
+      "rep_years": "years",
+      "rep_series": "hybrid",
+      "rep_module": "cement_bau.ds_models.iran_replacement"
+    },
+    "india": {
+      "nonrep": "nonreplacement",
+      "rep": "replacement",
+      "years": "years",
+      "series": "total_cement_hybrid",
+      "actual": "actual_axis",
+      "rep_years": "years",
+      "rep_series": "total_cement_hybrid",
+      "rep_module": "cement_bau.ds_models.india_replacement"
+    },
+    "indonesia": {
+      "nonrep": "nonreplacement",
+      "rep": "replacement",
+      "years": "years_full",
+      "series": "final_series",
+      "actual": "actual_all",
+      "rep_years": "years_full",
+      "rep_series": "final_series",
+      "rep_module": "cement_bau.ds_models.indonesia_replacement"
+    },
+    "united_kingdom": {
+      "nonrep": "nonreplacement",
+      "rep": "replacement",
+      "years": "years",
+      "series": "hybrid",
+      "actual": "y_actual",
+      "rep_years": "years",
+      "rep_series": "hybrid",
+      "rep_module": "cement_bau.ds_models.united_kingdom_replacement"
+    },
+    "vietnam": {
+      "nonrep": "nonreplacement",
+      "rep": "replacement",
+      "years": "years_full",
+      "series": "yhat_ar1_fixed",
+      "actual": "actual_all",
+      "rep_years": "years_full",
+      "rep_series": "yhat_ar1_fixed",
+      "rep_module": "cement_bau.ds_models.vietnam_replacement"
+    },
+    "china": {
+      "nonrep": "nonreplacement",
+      "rep": "replacement",
+      "years": "years",
+      "series": "yhat_final",
+      "actual": "actual_tons",
+      "rep_years": "years",
+      "rep_series": "yhat_final",
+      "rep_module": "cement_bau.ds_models.china_replacement"
+    }
+  }
+}
